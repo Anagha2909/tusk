@@ -1,3 +1,8 @@
+"""
+1.Create a function and add this 
+2.Try using list indexing 
+
+"""
 fcart=0
 vcart=0
 chcart=0
@@ -12,7 +17,7 @@ if (x==0):
     n=int(input("enter which fruit you want"))
     m=int(input("Enter the quantity"))
     if(n==0):
-        print("apple")
+        print(fruits[0]) #this is called indexing and try changing it for a print statements
         fcart=m*100
     elif(n==1):
         print("banana")
